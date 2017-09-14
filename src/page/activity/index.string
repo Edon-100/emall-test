@@ -1,0 +1,32 @@
+<img class="pointer-head" src="('../image/activity/pointer-head.png')" alt="" />
+<div class="dggd_r" id="h" style="height:100px;width:220px;overflow:hidden;display:inline;float:left;">
+    <ul id="h1">
+        <li>
+             <span class="name">xxx</span>
+            <span class="award">5张听课劵</span>
+        </li>
+        <li>
+             <span class="name">xxx</span>
+            <span class="award">5张听课劵</span>
+        </li>
+        <li>
+             <span class="name">xxx</span>
+
+            <span class="award">5张听课劵</span>
+        </li>
+           <li>
+             <span class="name">xxx</span>
+            <span class="award">5张听课劵</span>
+        </li>
+        <li>
+             <span class="name">xxx</span>
+            <span class="award">5张听课劵</span>
+        </li>
+        <li>
+             <span class="name">xxx</span>
+            <span class="award">5张听课劵</span>
+        </li>
+
+    </ul>
+    <ul id="h2"></ul>
+</div>

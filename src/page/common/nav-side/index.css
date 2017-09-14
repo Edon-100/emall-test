@@ -1,0 +1,28 @@
+/*
+* @Author: Administrator
+* @Date:   2017-06-27 14:13:13
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-06-27 15:47:04
+*/
+/* 导航主题 */
+.nav-side{
+	float: left;
+	width: 130px;
+	min-height: 100px;
+}
+.nav-side .nav-item{
+	line-height: 25px;
+	font-size: 13px;
+}
+.nav-side .nav-item .link{
+	color: #888;
+}
+.nav-side .nav-item.active .link{
+	color: #c60023;
+	font-weight: bold;
+}
+/* 右侧内容器 */
+.content{
+	float: left;
+	width:950px;
+}

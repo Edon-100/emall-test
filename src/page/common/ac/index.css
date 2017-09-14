@@ -1,0 +1,14 @@
+/*
+* @Author: Administrator
+* @Date:   2017-07-15 15:44:04
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-07-15 16:18:01
+*/
+.large .content {
+	display: inline-block;
+	height: 180px;
+}
+.large .content .activity-img{
+	width: 100%;
+	height: 100%;
+}

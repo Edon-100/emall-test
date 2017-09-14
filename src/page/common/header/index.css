@@ -1,0 +1,66 @@
+/*
+* @Author: Administrator
+* @Date:   2017-06-26 19:12:12
+* @Last Modified by:   Administrator
+* @Last Modified time: 2017-07-04 12:39:29
+*/
+/*.header{
+	text-align: center;
+}
+.logo{
+	color: #c60023;
+	font-size: 40px;
+	line-height: 40px;
+	font-weight: bold;
+}
+.search-info{
+	font-size: 15px;
+	width: 500px;
+	border: 2px solid #c60023;
+	height: 40px;
+	line-height: 40px;
+}
+.btn .btn-search{
+	position: absolute;
+	margin-top: 10px;
+}
+*/
+.header .logo{
+    position: absolute;
+    left: 60px;
+    top: 34px;
+    display: block;
+    font-size: 36px;
+    color: #3366FF;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.header .search-con{
+    padding: 40px 0 30px 250px;
+}
+.header .search-con .search-input{
+    width: 550px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 10px;
+    font-size: 15px;
+    border: 2px solid #3366FF;
+    outline: none;
+}
+.header .search-con .search-btn{
+    position: absolute;
+    height: 44px;
+    width: 80px;
+    background-color: #3366CC;
+}
+/* 面包屑导航 */
+.crumb{
+   margin-bottom: 15px;
+    height: 50px;
+    line-height: 50px;
+    background: #eee;
+    color: #888;
+    font-size: 14px;
+    border-top: 2px solid #3366FF;
+}

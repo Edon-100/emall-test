@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <p id='a'>123</p>
+    </body>
+</html> 
+<script src="https://cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+    // ---------------------------Litst--------------------------------------
+    // var SingleList = function(){
+    //     function SingleList(){
+    //         this.length = 0;
+    //         this.first  = null;
+    //         this.last   = null;
+    //     }
+    // }
+    // // 获取item
+    // SingleList.prototype.get = function(index){
+    //        // 判断index是不是数字，或者index是否小于0，是否大于索引
+    //        if(typeof index !== 'number' || index<0 || index >this.length ){
+    //         return undefined ;
+    //        }
+    //        // 创建第一个
+    //        var item = this.first;
+    //        // next idex 次，获取index序号的item
+    //        for(var i = 0 ;i<index ;i ++ ){
+    //             item = item.next;
+    //        }
+    //        return item;
+    // }
+    // // 根据索引获取item内容
+    // SingleList.prototype.set = function(index,value){
+    //     if(typeof index !== 'number' || index<0 || index >this.length ){
+    //         return false ;
+    //        }
+    //        var item = this.get(index);
+    //         item.data = value;
+    //         return item;
+    // }
+    // // 根据索引的位置插入新的内容
+    // SingleList.prototype.add = function(index,value){
+    //       if(typeof index !== 'number' || index<0 || index >this.length ){
+    //         return false ;
+    //        }
+    //        // 要插入的item
+    //        var newItem = {
+    //         data : value,
+    //         next : null
+    //        };
+    //        // 原本存在元素
+    //        if(this.length>0){
+    //         // 插入为第一个元素
+    //         if(index === 0){
+    //             // 原第一个变为第二个
+    //             newItem.next = this.first;
+    //             // 新的变为第一个
+    //             this.first = newItem  ;
+    //             // 插入为最后一个
+    //         }else if(index===this.length){
+    //             // 原最后一个的后一个
+    //             this.last.next = newItem;
+    //             // link的最后一个
+    //             this.last = newItem;
+    //         }
+    //         // 插入的是中间的
+    //         else{
+    //        // index前一个
+    //         var item1 = this.get(index-1); 
+    //         // index个
+    //         var item2 = item1.next;
+    //         item1.next = newItem;;
+    //         newItem.next = item2;
+    //         }
+    //        }
+    //        // 原本没元素
+    //        else{
+    //         this.first = newItem;
+    //         this.last  = newItem;
+    //        }
+    //        this.length++;
+    //        return item;
+    // }
+    // // 根据索引位置
+    // SingleList.prototype.remove = function(index){
+    //     if(typeof index !== 'number' || index<0 || index>this.length){
+    //         return false;
+    //     }
+    //     // 获取要删除的元素前一个
+    //     var preItem = this.get(index-1);
+    //     // index个
+    //     var item = item.next;
+    //     // index+1个
+    //     var nextItem = item.next;
+    //     preItem.next = nextItem;
+    // }
+    // ---------------------------sort--------------------------------------
+    // 冒泡排序
+    // function maopao(){
+    //     for(var i =0 ;i<arr.length-1,i++){
+    //         for(var j = 0;j<arr.length-1-i ; j++){
+    //             if(a[j]>a[j+1]){
+    //                 var temp = a[j];
+    //                 a[j] = a[j+1];
+    //                 a[a+1] = temp;
+    //              }
+    //         }
+    //     }      
+    // };
+    /*冒泡步骤
+    1、外循环len-1
+    2、里循环len - i -1
+    3、如果前比后大，则换
+    */
+    var a = [11,5,1,3,2,4,53,66];
+    var bubbleSort = function(arr){
+    //      var len = arr.length;    
+    // for (var i = 0; i < len; i++) {    
+    //     for(var j = 0; j < len - i -1; j++){    
+    //         if(arr[j]>arr[j+1]){  //相邻元素进行对比    
+    //             var temp = arr[j+1];//交换元素    
+    //             arr[j+1] = arr[j];    
+    //             arr[j] = temp;    
+    //         }    
+    //     }    
+    // } 
+       for (var i = 0; i < a.length-1; i++) {//比较的次数是length-1
+                for (var j = 0; j < a.length - 1 - i; j++) {
+                    if (a[j] > a[j + 1]) {
+                        var tmp = a[j];
+                        a[j] = a[j + 1];
+                        a[j + 1] = tmp;
+                    }
+                }
+            }
+            // alert(a);   
+    return a;//返回数组  
+    }
+     console.log(bubbleSort(a));
+});
+
+</script>
+<!-- // <script>
+//     $(document).ready(function(e){
+//     $('.pointer-head').click(function(e){
+//         $('.pointer-head').css('transform','rotate(90deg)');
+//     });
+// });
+setTimeout();
+setInterval();
+
+</script> -->

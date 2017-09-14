@@ -1,0 +1,21 @@
+/*
+* @Author: Administrator
+* @Date:   2017-06-26 18:57:34
+* @Last Modified by:   edon92
+* @Last Modified time: 2017-06-26 19:06:34
+*/
+.footer{
+	padding-bottom: 10px;
+}
+.footer .links{
+	text-align: center;
+}
+.footer .links .link{
+	padding:0 10px;
+}
+.footer .copyright{
+	text-align: center;
+	color:#666;
+	line-height: 30px;
+
+}

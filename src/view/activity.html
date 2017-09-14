@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <%= require('html-loader!./layout/head-common.html')  %>
+        <title><%= htmlWebpackPlugin.options.title%> - E-MALL电商平台</title>
+    </head>
+    <body>
+        <%= require('html-loader!./layout/nav.html')  %>
+        <%= require('html-loader!./layout/header.html')  %>
+        <div class="large">
+        	<div class="large bg bg1"></div>
+        	<div class="bg bg2"></div>
+        	<div class="bg bg3"></div>
+        	<div class="bg bg4"></div>
+        	<div class="bg pointer">
+               <img class="pointer-head" src="<%= require('../image/activity/pointer-head.png') %>" alt="" />
+               <div class="dggd_r" id="h" style="height:100px;width:220px;overflow:hidden;display:inline;float:left;">
+                    <ul id="h1">
+                        <li>
+                             <span class="name">xxx</span>
+                            <span class="award">5张听课劵</span>
+                        </li>
+                        <li>
+                             <span class="name">xxx</span>
+                            <span class="award">5张听课劵</span>
+                        </li>
+                        <li>
+                             <span class="name">xxx</span>
+
+                            <span class="award">5张听课劵</span>
+                        </li>
+                           <li>
+                             <span class="name">xxx</span>
+                            <span class="award">5张听课劵</span>
+                        </li>
+                        <li>
+                             <span class="name">xxx</span>
+                            <span class="award">5张听课劵</span>
+                        </li>
+                        <li>
+                             <span class="name">xxx</span>
+                            <span class="award">5张听课劵</span>
+                        </li>
+                    </ul>
+                    <ul id="h2"></ul>
+               </div>
+        	</div>
+        	<div class="bg bg6">
+        		<div class="btn-share">
+        		<a href="" class="share"></a> 			
+        		</div>
+                <div class="share-modal">
+                    <i class="fa fa-close close"></i>
+                    <div class="EWM">
+                        <h3>请扫描二维码登陆微信分享</h2>
+                    </div>
+                </div>
+        	</div>
+        	<div class="bg bg7"> </div>
+        	<div class="bg bg8"> 
+                <ul class="bg8-ul">
+                    <li style="width:250px;height:30px;float:left;" class="li1" data-award="600元"></li>
+                    <li style="width:250px;height:30px;float:left;" data-award="300元"></li>
+                    <li style="width:250px;height:30px;float:left;" data-award="100元"></li>
+                </ul>
+            </div>
+        	<div class="bg bg9"> </div>
+        	<div class="bg bg10">
+              <ul class="bg10-ul">
+                <li data-buy="抢购成功，已加入购物车" class="bg10-li1"></li>
+                <li data-buy="抢购成功，已加入购物车"></li>
+                <li data-buy="抢购成功，已加入购物车"></li>
+            </ul>   
+            </div>
+        	<div class="bg bg11"></div>
+        	<div class="bg bg12">
+               <ul class="bg12-ul">
+                <li data-buy="已加入购物车" class="bg12-li1" data-buy="抢购成功，已加入购物车"></li>
+                <li data-buy="已加入购物车" class="bg12-li2" data-buy="抢购成功，已加入购物车"></li>
+            </div>
+        	<div class="bg bg13"></div>
+        	<div class="bg bg14"></div>
+        	<div class="bg bg15"></div>
+        	<div class="bg bg16"></div>
+        	<div class="bg bg17"></div>
+        	<div class="bg bg18"></div>
+        	<div class="bg bg19"></div>
+        	<div class="bg bg20" style="position:relative;">
+             <a href="#" id="to_top" style="position:absolute;top:30px;left:42%;width:205px;height:50px;display:block;"></a> 
+            </div>	
+        </div>
+        <%= require('html-loader!./layout/footer.html')  %>
+    </body>
+</html>
