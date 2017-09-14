@@ -49,7 +49,7 @@ var config = {
     },
     output: {
         path: __dirname + '/dist/',
-        publicPath : 'dev' === WEBPACK_ENV ? '/dist/'  : '//s.edon-plus.com/mmall-fe/dist/',
+        publicPath : 'dev' === WEBPACK_ENV ? '/dist/'  : '//s.edon-plus.com/emall-test/dist/',
         filename: 'js/[name].js'
     },
     externals : {
