@@ -9,7 +9,7 @@
 var conf = {
     serverHost : ''
 };
-var hogan = require('hogan.js');
+var hogan = require('hogan');
 var _mm  = {
 	request : function(param){
 		var _this = this;
