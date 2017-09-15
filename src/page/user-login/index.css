@@ -1,29 +1,13 @@
 /*
-* @Author: Administrator
-* @Date:   2017-06-29 12:08:56
-* @Last Modified by:   Administrator
-* @Last Modified time: 2017-07-03 15:00:01
+* @Author: Rosen
+* @Date:   2017-05-21 15:11:05
+* @Last Modified by:   Rosen
+* @Last Modified time: 2017-05-21 22:46:39
 */
 /* 最外层容器 */
-.page-warp{
-    /*padding: 40px 0;*/
-    /*background: #e72955;*/
-    background: url('../../image/banner/bg.jpg') no-repeat center top ;
-   
-    height: 600px;
-    width: 100%;
-}
-.inner1{
-    float: left;
-    background-color: rgb(249, 196, 0);
-    height: 600px;
-    width: 100px;
-}
-.inner2{
-    float: right;
-    background-color: rgb(249, 196, 0);
-    height: 600px;
-    width: 100px;
+.page-wrap{
+    padding: 40px 0;
+    background: #e72955;
 }
 /* 表单框 */
 .user-con{
@@ -31,7 +15,6 @@
     margin: 0 auto;
     width: 400px;
     background: #fff;
-    margin: 100px 0px auto auto;
 }
 .user-con .user-title{
     text-align: center;
